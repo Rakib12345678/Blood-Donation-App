@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:icon="@drawable/ic_phone" android:title="Home"/>
+    <item android:id="@+id/send_email" android:icon="@drawable/ic_phone" android:title="Email"/>
+<item android:id="@+id/compatiable" android:icon="@drawable/ic_phone" android:title="compatiable" />
+    <item android:title="blood group">
+
+<menu>
+<group android:checkableBehavior="single">
+    <item android:id="@+id/aplus" android:icon="@drawable/ic_phone" android:title="A positive"/>
+    <item android:id="@+id/aminu" android:icon="@drawable/ic_phone" android:title="A negative"/>
+    <item android:id="@+id/bplus" android:icon="@drawable/ic_phone" android:title="B positive"/>
+    <item android:id="@+id/bminus" android:icon="@drawable/ic_phone" android:title="B negative"/>
+    <item android:id="@+id/ABplus" android:icon="@drawable/ic_phone" android:title="AB positive"/>
+    <item android:id="@+id/abminus" android:icon="@drawable/ic_phone" android:title="AB negative"/>
+    <item android:id="@+id/oplus" android:icon="@drawable/ic_phone" android:title="O positive"/>
+    <item android:id="@+id/ominus" android:icon="@drawable/ic_phone" android:title="O negative"/>
+
+</group>
+</menu>
+    </item>
+
+<item android:title="Action">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/profile" android:icon="@drawable/ic_phone" android:title="profile"/>
+            <item android:id="@+id/notification" android:icon="@drawable/ic_phone" android:title="notification"/>
+            <item android:id="@+id/logout" android:icon="@drawable/ic_phone" android:title="logout"/>
+
+
+        </group>
+    </menu>
+</item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/about" android:icon="@drawable/ic_phone" android:title="ABOUT"/>
+                <item android:id="@+id/share" android:icon="@drawable/ic_phone" android:title="Share"/>
+
+
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
